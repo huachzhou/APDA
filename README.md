@@ -5,7 +5,7 @@
 Options to reproduce results reported in the paper:
 
 ```bash
-1. Epinions Epoochs 15 Decay 10 Layer 1 Neighbor 2 Abs True
-2. Gowalla Epochs 15 Decay 10 Layer 1 Neighbor 1 Abs False
+1. Epinions python main.py --residual_coff 0.6 --exp_on False
+2. Gowalla python main.py --residual_coff 0.2 --exp_on True
 ```
-If you have any problem, please feel free to send me an email or leave the issues. Thanks for your attention to our work!
+If you have any problem, please feel free to send me an email huachi.zhou@connect.polyu.hk or leave the issues. Thanks for your attention to our work!
